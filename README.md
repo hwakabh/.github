@@ -21,6 +21,7 @@ GitHub Repository Scaffolder
 - renovate
 
 ## Prerequisites
+- Replace `GH_USERNAME` and `GH_REPONAME` in CONTRIBUTING.md
 
 ## Workflows
 
