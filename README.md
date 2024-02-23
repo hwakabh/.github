@@ -52,7 +52,7 @@ If you can successfully create your repository from fork, you can confirm it the
   - config: `.github/semantic.yaml`
   - Require installation of [Semantic PR](https://github.com/apps/semantic-prs) as GitHub Apps
 - renovate
-  - config: `.github/config/renovate.json`
+  - config: `.github/renovate.json`
   - Require installation of [Mend Renovate](https://github.com/apps/renovate) as GitHub Apps
 
 ## Workflows
