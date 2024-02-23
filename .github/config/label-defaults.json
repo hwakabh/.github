@@ -62,7 +62,12 @@
   {
     "name": "validating",
     "color": "ffffff",
-    "description": "This will not be worked on"
+    "description": "Awaiting e2e validatings"
+  },
+  {
+    "name": "staled",
+    "color": "ffffff",
+    "description": "Issue not actively updated"
   },
   {
     "name": "wontfix",
