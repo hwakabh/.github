@@ -72,4 +72,4 @@ If you can successfully create your repository from fork, you can confirm it the
 - Referencing default CONTRIBUTING.md
 
 ## Good to know
-- `actions/labeler` requires to merge its config into default branch
+TBD
