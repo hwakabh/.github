@@ -29,9 +29,9 @@ If you can successfully create your repository from fork, you can confirm it the
   - [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#about-code-owners)
 
 - declarative label presetting
-  - [azu@github-label-setup](https://github.com/azu/github-label-setup)
+  - [@azu/github-label-setup](https://github.com/azu/github-label-setup)
     - CLI tools
-    - Require Node.js environment and GitHub Personal Access Token
+    - Require Node.js for installation and GitHub Personal Access Token for run locally
   - config: `.github/config/label-defaults.json`
 
 - Issue Labeler
