@@ -1,5 +1,5 @@
 # .github
-GitHub Repository Scaffolder
+Personal GitHub Repository Scaffolder
 
 ## Usages
 ### as GitHub metafiles
@@ -23,14 +23,15 @@ If you can successfully create your repository from fork, you can confirm it the
 
 ## Features
 - Git metafiles
-  - gitignore (minimal)
-  - gitattributes
+  - `.gitignore` (minimal)
+  - `.gitattributes
 - GitHub metafiles
-  - CODEOWNERS
-- labeler (issues and PRs)
-- Semantic PR
-- Stale Issue
+  - `CODEOWNERS`
 - declarative label preset
+- Issue Labeler
+- PR Labeler
+- Stale Issue
+- Semantic PR
 - release-please
 - renovate
 
