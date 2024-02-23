@@ -1,4 +1,6 @@
-# File matches
+bugs:
+- head-branch: ['^fix/', '^hotfix/']
+
 ci:
 - changed-files:
   - any-glob-to-any-file: ['.github/**/*']
@@ -11,7 +13,10 @@ deps:
 
 docs:
 - changed-files:
-  - any-glob-to-any-file: ['**/README.md']
+  - any-glob-to-any-file: ['**/README.md', '**/CHANGELOG.md']
+
+renovate:
+- head-branch: ['^renovate/']
 
 schemas:
 - changed-files:
@@ -20,11 +25,3 @@ schemas:
 tests:
 - changed-files:
   - any-glob-to-any-file: ['tests/**/*']
-
-
-# Branch name matches
-renovate:
-- head-branch: ['^renovate/']
-
-bugs:
-- head-branch: ['^fix/', '^hotfix/']

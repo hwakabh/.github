@@ -35,5 +35,5 @@ tests:
 
 # Note that the following labels will have never been added by issue-labeler,
 # since only for PRs and will not raise issue
-# - dependabot
+# - renovate
 # - releases
