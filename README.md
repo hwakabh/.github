@@ -23,21 +23,43 @@ If you can successfully create your repository from fork, you can confirm it the
 
 ## Features
 - Git metafiles
-  - `.gitignore` (minimal)
-  - `.gitattributes
+  - [`.gitignore`](https://git-scm.com/docs/gitignore) (minimal)
+  - [`.gitattributes`](https://git-scm.com/docs/gitattributes)
 - GitHub metafiles
-  - `CODEOWNERS`
-- declarative label preset
-- Issue Labeler
-- PR Labeler
-- Stale Issue
-- Semantic PR
-- release-please
-- renovate
+  - [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#about-code-owners)
 
-## Prerequisites
+- declarative label presetting
+  - [azu@github-label-setup](https://github.com/azu/github-label-setup)
+    - CLI tools
+    - Require Node.js environment and GitHub Personal Access Token
+  - config: `.github/config/label-defaults.json`
+
+- Issue Labeler
+  - actions: [github/issue-labeler](https://github.com/github/issue-labeler)
+  - config: `.github/config/issue-labels.yaml`
+- PR Labeler
+  - actions: [actions/labeler](https://github.com/actions/labeler)
+  - config: `.github/config/pr-labels.yaml`
+- Stale Issue
+  - actions: [actions/stale](https://github.com/actions/stale)
+- release-please
+  - actions: [google-github-actions/release-please-action](https://github.com/google-github-actions/release-please-action)
+  - configs:
+    - `.release-please-manifest.json`
+    - `.github/config/release-please-config.json`
+
+- Semantic PRs
+  - config: `.github/semantic.yaml`
+  - Require installation of [Semantic PR](https://github.com/apps/semantic-prs) as GitHub Apps
+- renovate
+  - config: `.github/config/renovate.json`
+  - Require installation of [Mend Renovate](https://github.com/apps/renovate) as GitHub Apps
 
 ## Workflows
+- Triage Issue
+- Triage PRs
+- Stale Issues
+- Release Please
 
 ## Caveats
 - Replace `GH_USERNAME` and `GH_REPONAME` in CONTRIBUTING.md
