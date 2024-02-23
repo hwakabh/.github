@@ -23,28 +23,22 @@ If you can successfully create your repository from fork, you can confirm it the
 
 ## Features
 - Git metafiles
-  - gitignore (generic)
+  - gitignore (minimal)
   - gitattributes
-- GitHub builtins
-  - README: this file
+- GitHub metafiles
   - CODEOWNERS
-  - SECURITY
-  - CODE_OF_CONDUCT
-  - LICENSE
-- GitHub Issue/PR templates
 - labeler (issues and PRs)
 - Semantic PR
 - Stale Issue
-- (optional) default labels
-
+- declarative label preset
 - release-please
 - renovate
 
 ## Prerequisites
-- Replace `GH_USERNAME` and `GH_REPONAME` in CONTRIBUTING.md
 
 ## Workflows
 
 ## Caveats
+- Replace `GH_USERNAME` and `GH_REPONAME` in CONTRIBUTING.md
 
 ## (Optional) Checklist
