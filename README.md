@@ -61,7 +61,15 @@ If you can successfully create your repository from fork, you can confirm it the
 - Stale Issues
 - Release Please
 
-## Caveats
-- Replace `GH_USERNAME` and `GH_REPONAME` in CONTRIBUTING.md
+## (Optional) Templating checklists
+- [ ] Initialize default labels with `github-label-setup` command
+- [ ] Adjust `CODEOWNERS`
+- [ ] Adjust `release-type` in release-please-config.json (default: `python`)
+  - See more in documents of [release-please](https://github.com/googleapis/release-please?tab=readme-ov-file#strategy-language-types-supported)
+- [ ] Replace `GH_USERNAME` and `GH_REPONAME` in CONTRIBUTING.md
 
-## (Optional) Checklist
+## Caveats
+- Referencing default CONTRIBUTING.md
+
+## Good to know
+- `actions/labeler` requires to merge its config into default branch
