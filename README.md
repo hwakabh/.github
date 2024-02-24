@@ -1,4 +1,4 @@
-# {{ repository_name }｝
+# {{ repository_name }}
 This file is expected to generate from template.
 See ［.github wiki](https://github.com/hwakabh/.github/wiki)
 
