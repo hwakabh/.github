@@ -1,5 +1,11 @@
+builds:
+- head-branch: ['^build']
+
 bugs:
 - head-branch: ['^fix/', '^hotfix/']
+
+deploy:
+- head-branch: ['^deploy']
 
 ci:
 - changed-files:
@@ -9,7 +15,7 @@ ci:
 deps:
 - changed-files:
   - any-glob-to-any-file: ['**/package.json', '**/pyproject.toml']
-- head-branch: ['^renovate/']
+- head-branch: ['^renovate/', '^deps/']
 
 docs:
 - changed-files:
@@ -17,10 +23,6 @@ docs:
 
 renovate:
 - head-branch: ['^renovate/']
-
-schemas:
-- changed-files:
-  - any-glob-to-any-file: ['schemas/**/*']
 
 tests:
 - changed-files:
