@@ -3,6 +3,9 @@
 breaking:
 - '/(?!)/'
 
+builds:
+- '(build)'
+
 bugs:
 - '(fix)'
 
@@ -16,7 +19,7 @@ deps:
 - '(deps|dependencies)'
 
 deploy:
-- '(build|deploy)'
+- '(deploy)'
 
 docs:
 - '(docs|document|diagram)'
@@ -24,11 +27,8 @@ docs:
 features:
 - '(feat)'
 
-schemas:
-- '(schema:|\(schema\))'
-
 security:
-- '(security)'
+- '(security|vulnerability|CVE)'
 
 tests:
 - '(test)'

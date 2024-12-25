@@ -10,6 +10,11 @@
     "description": "Something isn't working"
   },
   {
+    "name": "builds",
+    "color": "e8b170",
+    "description": "Issue or features related to application builds"
+  },
+  {
     "name": "chore",
     "color": "d1a995",
     "description": "Minor activities not related to core logics"
