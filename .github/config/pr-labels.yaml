@@ -21,6 +21,9 @@ docs:
 - changed-files:
   - any-glob-to-any-file: ['**/README.md', '**/CHANGELOG.md']
 
+features:
+- head-branch: ['^feat']
+
 renovate:
 - head-branch: ['^renovate/']
 
