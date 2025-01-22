@@ -78,5 +78,25 @@
     "name": "wontfix",
     "color": "ffffff",
     "description": "This will not be worked on"
+  },
+  {
+    "name": "autorelease: pending",
+    "color": "ffffff",
+    "description": "Release PRs from release-please awaiting approvals"
+  },
+  {
+    "name": "autorelease: tagged",
+    "color": "ffffff",
+    "description": "Release PR has been merged and the release has been tagged"
+  },
+  {
+    "name": "autorelease: snapshot",
+    "color": "ffffff",
+    "description": "A special state for snapshot version bumps"
+  },
+  {
+    "name": "autorelease: published",
+    "color": "ffffff",
+    "description": "A GitHub release has been published based on the Release PR"
   }
 ]
