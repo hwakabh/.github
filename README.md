@@ -8,7 +8,6 @@ Note: This file is expected to generate from template. See [.github wiki](https:
 - [ ] Update `release-type` in [`.github/config/release-please-config.json`](./.github/config/release-please-config.json) (default: `python`)
   - See more in documents of [release-please](https://github.com/googleapis/release-please?tab=readme-ov-file#strategy-language-types-supported)
 - [ ] Replace `GH_USERNAME` and `GH_REPONAME` in [CONTRIBUTING.md](./CONTRIBUTING.md)
-- [ ] Replace `GH_USERNAME` and `GH_REPONAME` for [`semantic-issue-action`](https://github.com/hwakabh/semantic-issue-action) in [`.github/workflows/semantic-issue.yaml`](./.github/workflows/semantic-issue.yaml)
 - [ ] Validate repository access of [semantic-prs](https://github.com/Ezard/semantic-prs) GitHub Apps, whose configurations exists [`.github/semantic.yml`](./.github/semantic.yml)
 - [ ] Enable `Allow GitHub Actions to create and approve pull requests` as Workflow Permision in repository settings
   - release-please requires permission to raise PR with your repository and for this you need to update workflow permission in your repository settings
