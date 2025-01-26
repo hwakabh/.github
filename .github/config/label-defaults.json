@@ -1,6 +1,6 @@
 [
   {
-    "name": "brekaing",
+    "name": "breaking",
     "color": "410715",
     "description": "Breaking Changes"
   },
@@ -55,7 +55,7 @@
     "description": "PRs from Mend Renovate"
   },
   {
-    "name": "secutiry",
+    "name": "security",
     "color": "e4e669",
     "description": "Changes with security perspectives"
   },
