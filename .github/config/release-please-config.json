@@ -14,7 +14,7 @@
         { "type": "refactor", "section": "Code Refactoring" },
         { "type": "revert", "section": "Reverts" },
         { "type": "test", "section": "Tests" },
-        { "type": "style", "section": "Styles" },
+        { "type": "style", "section": "Styles" }
       ]
     }
   },
