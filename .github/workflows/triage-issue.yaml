@@ -35,3 +35,10 @@ jobs:
           include-title: 1
           include-body: 0
         # https://github.com/github/issue-labeler
+
+      - name: Check Issue Title
+        uses: hwakabh/semantic-issue-action@v0.5.1
+        with:
+          repo: ${{ github.repository }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+        # https://github.com/hwakabh/semantic-issue-action
