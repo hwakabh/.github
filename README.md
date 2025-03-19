@@ -3,13 +3,14 @@ Note: This file is expected to generate from template. See [.github wiki](https:
 
 ## Templating checklists
 - [ ] Replace `{{ repository_name }}` as placeholder text above with your repository name
+- [ ] Initialize repository configs with `repooster` command
 - [ ] Initialize default labels with `github-label-setup` command
 - [ ] Adjust `CODEOWNERS`
 - [ ] Update `release-type` in [`.github/config/release-please-config.json`](./.github/config/release-please-config.json) (default: `python`)
   - See more in documents of [release-please](https://github.com/googleapis/release-please?tab=readme-ov-file#strategy-language-types-supported)
 - [ ] Replace `GH_USERNAME` and `GH_REPONAME` in [CONTRIBUTING.md](./CONTRIBUTING.md)
 - [ ] Validate repository access of [semantic-prs](https://github.com/Ezard/semantic-prs) GitHub Apps, whose configurations exists [`.github/semantic.yml`](./.github/semantic.yml)
-- [ ] Enable `Allow GitHub Actions to create and approve pull requests` as Workflow Permision in repository settings
+- [ ] Validate `Allow GitHub Actions to create and approve pull requests` as Workflow Permision in repository settings
   - release-please requires permission to raise PR with your repository and for this you need to update workflow permission in your repository settings
   - Refer to the capture below and enable GitHub Actions to raise PR to your repository
 
