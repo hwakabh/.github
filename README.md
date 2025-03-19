@@ -6,7 +6,7 @@ Note: This file is expected to generate from template. See [.github wiki](https:
 - [ ] Initialize repository configs with `repooster` command
 - [ ] Initialize default labels with `github-label-setup` command
 - [ ] Adjust `CODEOWNERS`
-- [ ] Update `release-type` in [`.github/config/release-please-config.json`](./.github/config/release-please-config.json) (default: `python`)
+- [ ] Update `release-type` in [`.github/config/release-please-config.json`](./.github/config/release-please-config.json) (default: `simple`)
   - See more in documents of [release-please](https://github.com/googleapis/release-please?tab=readme-ov-file#strategy-language-types-supported)
 - [ ] Replace `GH_USERNAME` and `GH_REPONAME` in [CONTRIBUTING.md](./CONTRIBUTING.md)
 - [ ] Validate repository access of [semantic-prs](https://github.com/Ezard/semantic-prs) GitHub Apps, whose configurations exists [`.github/semantic.yml`](./.github/semantic.yml)
