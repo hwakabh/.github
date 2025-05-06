@@ -16,6 +16,8 @@ Note: This file is expected to generate from template. See [.github wiki](https:
 - [ ] Replace `GH_USERNAME` and `GH_REPONAME` in [CONTRIBUTING.md](./CONTRIBUTING.md)
 - [ ] Adjust `.github/CODEOWNERS`
   - See its syntax in [GitHub Official Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+- [ ] Adjust in [CITATION.cff](./CITATION.cff)
+  - See more details about Citation File Format in [GitHub documents](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) and [official repository](https://github.com/citation-file-format/citation-file-format/blob/main/README.md)
 
 Then, you can clean texts above in this section and update with any of descriptions for your project!
 The following headers are skeletons of basic README.
