@@ -12,14 +12,16 @@ jobs:
   triage-pr:
     runs-on: ubuntu-24.04
     steps:
+      # https://github.com/actions/checkout
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Assign author to PR
-        if: github.event.action == 'opened'
-        uses: technote-space/assign-author@v1.6.2
-        # https://github.com/technote-space/assign-author
+      # # https://github.com/technote-space/assign-author
+      # - name: Assign author to PR
+      #   if: github.event.action == 'opened'
+      #   uses: technote-space/assign-author@v1.6.2
 
+      # https://github.com/actions/labeler
       - name: Label to PR
         uses: actions/labeler@v5
         with:

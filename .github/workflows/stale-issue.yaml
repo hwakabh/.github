@@ -13,6 +13,7 @@ jobs:
   close-issues:
     runs-on: ubuntu-24.04
     steps:
+      # https://github.com/actions/stale
       - uses: actions/stale@v9
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
