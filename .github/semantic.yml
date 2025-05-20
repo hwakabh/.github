@@ -3,15 +3,17 @@ titleOnly: true
 commitsOnly: false
 titleAndCommits: false
 types:
-  - feat
-  - fix
   - build
   - chore
   - ci
+  - deloy
   - docs
-  - style
-  - refactor
+  - feat
+  - fix
   - perf
-  - test
+  - refactor
   - revert
+  - security
+  - style
+  - test
 targetUrl: https://www.conventionalcommits.org/en/v1.0.0/
