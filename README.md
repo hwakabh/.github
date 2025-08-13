@@ -13,7 +13,7 @@ Note: This file is expected to generate from template. See [.github wiki](https:
 <!-- GitHub's Community Health files -->
 - [ ] Add `LICENSE` file to your project
   - See more details in [GitHub Official Docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
-- [ ] Replace `GH_USERNAME` and `GH_REPONAME` in [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [ ] Replace `GH_USERNAME` and `GH_REPONAME` in [CONTRIBUTING.md](.github/CONTRIBUTING.md)
 - [ ] Adjust `.github/CODEOWNERS`
   - See its syntax in [GitHub Official Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 - [ ] Adjust in [CITATION.cff](./CITATION.cff)
